@@ -1,0 +1,46 @@
+{
+  "dependencies": {
+    "@google/genai": "^1.5.1",
+    "@supabase/supabase-js": "^2.50.4",
+    "bcryptjs": "^3.0.2",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "geoip-lite": "^1.4.10",
+    "got": "^14.4.7",
+    "i18n-iso-countries": "^7.14.0",
+    "jsonwebtoken": "^9.0.2",
+    "openai": "^4.97.0",
+    "passport": "^0.7.0",
+    "passport-google-oauth20": "^2.0.0",
+    "pg": "^8.16.0"
+  },
+  "name": "ai-model-credit-system",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node dist/index.js",
+    "dev": "nodemon --watch . -e ts --exec \"npx ts-node --files --transpile-only index.ts\"",
+    "build": "tsc",
+    "vercel-build": "npm install && npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/cookie-parser": "^1.4.9",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.2",
+    "@types/geoip-country": "^4.0.2",
+    "@types/geoip-lite": "^1.4.4",
+    "@types/jsonwebtoken": "^9.0.9",
+    "@types/node": "^22.15.27",
+    "@types/passport-google-oauth20": "^2.0.16",
+    "@types/pg": "^8.15.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
